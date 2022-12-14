@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		240816BA292D1D5800BCCC0C /* CreateTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240816B9292D1D5800BCCC0C /* CreateTaskApp.swift */; };
 		240816BC292D1D5800BCCC0C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240816BB292D1D5800BCCC0C /* MainView.swift */; };
 		240816BE292D1D5900BCCC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240816BD292D1D5900BCCC0C /* Assets.xcassets */; };
 		240816C1292D1D5900BCCC0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240816C0292D1D5900BCCC0C /* Preview Assets.xcassets */; };
@@ -15,6 +14,7 @@
 		240816D5292D1D5A00BCCC0C /* CreateTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240816D4292D1D5A00BCCC0C /* CreateTaskUITests.swift */; };
 		240816D7292D1D5A00BCCC0C /* CreateTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240816D6292D1D5A00BCCC0C /* CreateTaskUITestsLaunchTests.swift */; };
 		242B4AF0292D2DC3003150A2 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242B4AEF292D2DC3003150A2 /* CanvasView.swift */; };
+		244C9377293E56C8008791C6 /* SandGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C9376293E56C8008791C6 /* SandGameApp.swift */; };
 		2491DE9929366C7500EBF525 /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491DE9829366C7500EBF525 /* Physics.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		240816B6292D1D5800BCCC0C /* CreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		240816B9292D1D5800BCCC0C /* CreateTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskApp.swift; sourceTree = "<group>"; };
 		240816BB292D1D5800BCCC0C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		240816BD292D1D5900BCCC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		240816C0292D1D5900BCCC0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		240816D4292D1D5A00BCCC0C /* CreateTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskUITests.swift; sourceTree = "<group>"; };
 		240816D6292D1D5A00BCCC0C /* CreateTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		242B4AEF292D2DC3003150A2 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		244C9376293E56C8008791C6 /* SandGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandGameApp.swift; sourceTree = "<group>"; };
 		2491DE9829366C7500EBF525 /* Physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,8 +136,8 @@
 		240816E3292D1E6C00BCCC0C /* Reasources */ = {
 			isa = PBXGroup;
 			children = (
-				240816B9292D1D5800BCCC0C /* CreateTaskApp.swift */,
 				240816BD292D1D5900BCCC0C /* Assets.xcassets */,
+				244C9376293E56C8008791C6 /* SandGameApp.swift */,
 			);
 			path = Reasources;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 			files = (
 				240816BC292D1D5800BCCC0C /* MainView.swift in Sources */,
 				242B4AF0292D2DC3003150A2 /* CanvasView.swift in Sources */,
-				240816BA292D1D5800BCCC0C /* CreateTaskApp.swift in Sources */,
+				244C9377293E56C8008791C6 /* SandGameApp.swift in Sources */,
 				2491DE9929366C7500EBF525 /* Physics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
