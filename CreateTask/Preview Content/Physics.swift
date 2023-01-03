@@ -38,8 +38,7 @@ class Physics : SKScene, SKPhysicsContactDelegate
     
     func loadSand() -> Void
         {
-            for _ in 0 ..< 15
-            {
+            
                 let currentColor = assignColorAndBitMask()
                 var width = 5
                 var height = 5
@@ -56,7 +55,7 @@ class Physics : SKScene, SKPhysicsContactDelegate
                 node.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: width, height: height))
                 node.physicsBody?.contactTestBitMask = UInt32(colorMask)
                 gameBlocks.append(node)
-            }
+            
         }
 
         
