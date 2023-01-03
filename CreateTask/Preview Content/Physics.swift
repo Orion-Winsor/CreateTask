@@ -38,7 +38,7 @@ class Physics : SKScene, SKPhysicsContactDelegate
     
     func loadSand() -> Void
         {
-            for _ in 0 ..< 160
+            for _ in 0 ..< 15
             {
                 let currentColor = assignColorAndBitMask()
                 var width = 5

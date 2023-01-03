@@ -25,7 +25,7 @@ struct CanvasView: View
     {
         VStack
         {
-            Text("Here Test")
+            Text("Sand Drop")
             SpriteView(scene: simpleScene)
                 .frame(maxWidth: UIDevice.current.userInterfaceIdiom != .pad ? width: .infinity, maxHeight: UIDevice.current.userInterfaceIdiom != .pad ? height : .infinity)
         }
